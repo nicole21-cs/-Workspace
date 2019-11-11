@@ -1,0 +1,23 @@
+package ejercicio;
+
+public class MainCasa {
+
+	public static void main(String[] args) {
+		System.out.println("La casa seleccionada es : ");
+		Casa c = new Casa();
+		c.setPrecio("185.000");
+		c.setDireccion(d);
+		
+		Direccion direccion = new Direccion();
+		direccion.setTipoVia("Calle");
+		direccion.setNombreVia("Diamante");
+		direccion.setNumero("97");
+		d.setCp("28021");
+		d.setCiudad("Madrid");
+		
+		
+		
+
+	}
+
+}

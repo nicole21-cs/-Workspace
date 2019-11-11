@@ -1,0 +1,65 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class EjercicioPeliculas {
+
+	public static void main(String[] args) {
+		ArrayList<Pelicula> listaPeliculas = new ArrayList<Pelicula>();
+		int opcion;
+		do {
+			 mostrarMenu();
+			 opcion = leerOpcion();
+			 if(opcion == 1) {
+				 String titulo = leerDatos(" el título de la película");
+				 String genero = leerDatos(" el género de la película");
+				 String director = leerDatos(" el director de la película");
+				 String sPuntuacion = leerDatos(" puntuación si lo desea");
+				 double dPuntuacion = Double.parseDouble(sPuntuacion);
+				 
+				 Pelicula p = new Pelicula(titulo, genero, director, dPuntuacion);
+				 listaPeliculas.add(p);
+				 
+			 }else if(opcion == 2) {
+				 recorrerArray(listaPeliculas);
+			 }
+		}while(opcion != 0);
+		
+		System.out.println("Gracias por su colaboración");
+
+	}
+    
+	public static void mostrarMenu() {
+		System.out.println("Escoja una opción");
+		System.out.println("1-Alta de la película");
+		System.out.println("2-Listar películas");
+		System.out.println("0-Salir del programa");
+		
+	}
+	public static int leerOpcion() {
+		Scanner sc = new Scanner(System.in);
+		String sOpcion = sc.nextLine();
+		int iOpcion = Integer.parseInt(sOpcion); //si  no hacemos esto nos dará problemas 
+		return iOpcion;                          //a la larga
+	}
+	 
+	public static String leerDatos(String cadena) { //cadena recibe el string que quiero leer
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduza" + cadena);
+		String dato = sc.nextLine();
+		return dato;
+		
+	}
+	 public static void recorrerArray(ArrayList<Pelicula> listaPeliculas) {
+		 for(Pelicula p : listaPeliculas) {
+			 System.out.println("Las películas son : ");
+			 System.out.println("El título de la película es : " + p.titulo);
+			 System.out.println("El género de la película es : " + p.genero);
+			 System.out.println("El director de la película es : " + p.director);
+			 // si en syso(p) 
+		 }
+	 }
+	    
+	
+}	
+	         
+

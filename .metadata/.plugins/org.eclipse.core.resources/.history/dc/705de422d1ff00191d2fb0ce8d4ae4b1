@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class Ejercicio12 {
+
+	public static void main(String[] args) {
+		ArrayList<String> listaRopa = new ArrayList<String> () ;
+		
+
+	}
+   public static void elementosArray(String nombres) {
+	   for(String valor : nombres ) {
+		   System.out.println(valor);
+	   }
+	   
+   }
+}

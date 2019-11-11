@@ -1,0 +1,8 @@
+package creacionAvion;
+
+public class pasajero {
+     private String nombre;
+     private String dni;
+     private String telefono;
+     private 
+}

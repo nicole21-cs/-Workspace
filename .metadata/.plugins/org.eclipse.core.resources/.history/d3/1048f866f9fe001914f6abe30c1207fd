@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Ejercico9ListaEstatica {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String[] arrayNombres = new String [10];
+		String nombre;
+		System.out.println("Introduzca diez nombres");
+		for(int i=0 ; i<=arrayNombres.length - 1; i++) {
+			nombre = sc.nextLine();
+			
+		}
+		
+		System.out.println("Ahora se van a mostrar los nombres en mayúsculas");
+		for(String  : arrayNombres ) {
+			String mayusculas = .toUpperCase();
+			System.out.println(mayusculas);
+		}
+		
+		System.out.println("Ahora se van a mostrar los nombres en minúsculas");
+		for(String valor : arrayNombres) {
+			String minusculas = valor.toLowerCase();
+			System.out.println(minusculas);
+		}
+
+	}
+
+}

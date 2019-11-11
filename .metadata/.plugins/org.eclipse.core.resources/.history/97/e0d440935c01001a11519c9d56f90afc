@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class EjercicioPeliculas {
+
+	public static void main(String[] args) {
+		ArrayList<Peliculas> listaPeliculas = new ArrayList<Peliculas>();
+		int opcion;
+		do {
+			 mostrarMenu();
+			 opcion = leerOpcion();
+			 if(opcion == 1) {
+				 String titulo = leerDatos(" el título de la película");
+				 String genero = leerDatos(" el género de la película");
+				 String director = leerDatos(" el director de la película");
+				 //String puntuacion = leerDatos("puntuación si lo desea");
+				 
+				 Peliculas p = new Peliculas(titulo, genero, director);
+				 listaPeliculas.add(p);
+				 
+			 }else if(opcion == 2) {
+				 
+			 }
+		}while(opcion != 0);
+
+	}
+    
+	public static void mostrarMenu() {
+		System.out.println("Escoja una opción");
+		System.out.println("1-Alta de la película");
+		System.out.println("2-Listar películas");
+		System.out.println("0-Salir del programa");
+		
+	}
+	public static int leerOpcion() {
+		Scanner sc = new Scanner(System.in);
+		int opcion = sc.nextInt();
+		return opcion;
+	}
+	 
+	public static String leerDatos(String cadena) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduza" + cadena);
+		String dato = sc.nextLine();
+		return dato;
+		
+	}
+	 public static void recorrerArray(ArrayList<Peliculas> listaPeliculas) {
+		 for(Peliculas p : listaPeliculas) {
+			 System.out.println("El título de la película es : " + p.titulo);
+			 System.out.println();
+			 
+		 }
+	 }
+	    
+	
+}	
+	         
+

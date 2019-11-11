@@ -1,0 +1,6 @@
+package creacionAvion;
+
+public class Avion {
+    private String tipoAvion;
+    private 
+}

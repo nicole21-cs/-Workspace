@@ -1,0 +1,40 @@
+
+public class EjercicioFunciones {
+
+	public static void main(String[] args) {
+	    imprimirAtributos(" Alex ", " Santos ", 16 , "672825005");
+	    imprimirAtributos(" Nicole ", " Cañar ", 18 , "672825005");
+	    imprimirAtributos(" Lola ", " García ", 20 , "601476985");
+	    imprimirMinusculas(" Ivan ", " Palan ", 39 , "646267708");
+	    imprimirMinusculas("Jessica", "Lopez", 54, "914785360");
+	    imprimirMinusculas("Betty", "Abarca", 42, "665565932");
+	    
+        
+	}
+   public static void imprimirAtributos(String nombre , String apellido, int edad , String telefono) {
+	   System.out.println("----PERSONA----");
+	   System.out.println("nombre : " + nombre.toUpperCase());
+	   System.out.println("apellido : " + apellido.toUpperCase() );
+	   System.out.println("edad : " + edad);
+	   System.out.println("telefono : " + telefono);
+	   //System.out.println(nombre.toUpperCase()); es mejor ponerlo con el mismo nombre
+	   //System.out.println(apellido.toUpperCase());  
+	   
+   }
+    public static void imprimirMinusculas(String nombre , String apellido , int edad , String telefono) {
+    	System.out.println("----PERSONA----");
+ 	   System.out.println("nombre : " + nombre.toLowerCase());
+ 	   System.out.println("apellido : " + apellido.toLowerCase() );
+ 	   System.out.println("edad : " + edad);
+ 	   System.out.println("telefono : " + telefono);
+    }
+    
+    public static void imprimirPersona(String nombre, 
+    		String apellido , int edad , String telefono) {
+    	System.out.println("----PERSONA----");
+ 	   System.out.println("nombre : " + nombre.toLowerCase());
+ 	   System.out.println("apellido : " + apellido.toLowerCase() );
+ 	   System.out.println("edad : " + edad);
+ 	   System.out.println("telefono : " + telefono);
+    }
+}

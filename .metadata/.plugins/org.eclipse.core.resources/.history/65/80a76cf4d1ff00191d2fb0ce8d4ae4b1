@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Ejercicio12 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner ( System.in);
+		ArrayList<String> listaRopa = new ArrayList<String> () ;
+	    elementosArray(listaRopa);
+
+	}
+   public static void elementosArray(ArrayList<String> lista) {
+	   for(String valor : lista ) {
+		   System.out.println(valor);
+	   }
+	   
+   }
+}

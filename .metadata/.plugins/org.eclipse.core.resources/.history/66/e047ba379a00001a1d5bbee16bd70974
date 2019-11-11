@@ -1,0 +1,28 @@
+
+public class Coche {
+      public String matricula ;
+      public String marca;
+      public String modelo;
+      public String mantenimiento;
+	public Coche(String matricula, String marca, String modelo, String mantenimiento) {
+		super();
+		this.matricula = matricula;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.mantenimiento = mantenimiento;
+	}
+	public Coche(String matricula1) {
+		matricula = matricula1; 
+	}
+	public Coche(String matricula2 , String marca1) {
+		matricula = matricula2;
+		marca = marca1;
+		
+	}
+	public Coche(String matricula3 , String marca3 , String modelo3 , String mantenimiento3) {
+		
+	}
+	
+     
+      
+}

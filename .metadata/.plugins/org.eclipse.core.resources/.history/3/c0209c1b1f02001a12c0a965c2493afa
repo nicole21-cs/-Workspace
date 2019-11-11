@@ -1,0 +1,15 @@
+package entidad;
+
+public class MainPersona {
+
+	public static void main(String[] args) {
+	     Persona p = new Persona();
+	     p.setNombre(nombre);
+	     
+	     
+	     
+	     Direccion d = new Direccion();
+	     
+	}
+
+}

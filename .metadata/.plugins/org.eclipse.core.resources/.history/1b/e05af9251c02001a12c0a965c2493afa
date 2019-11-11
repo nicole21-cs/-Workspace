@@ -1,0 +1,7 @@
+package entidad;
+
+public class Direccion {
+      private String tipoDeVia;
+      private String nombreVia;
+      private  numero;
+}

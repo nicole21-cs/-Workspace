@@ -1,0 +1,45 @@
+package ejercicio;
+
+import java.util.ArrayList;
+
+public class Casa {
+     private String precio;
+     private Direccion direccion;
+     private ArrayList<Habitacion> listaHabitaciones ;
+     private Persona dueño; //poner la ñ a veces puede dar "problemas" por eso se pone duenio
+     
+	public String getPrecio() {
+		return precio;
+	}
+	public void setPrecio(String precio) {
+		this.precio = precio;
+	}
+	public Direccion getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(Direccion direccion) {
+		this.direccion = direccion;
+	}
+	public ArrayList<Habitacion> getListaHabitacion() {
+		return listaHabitaciones;
+	}
+	public void setListaHabitacion(ArrayList<Habitacion> listaHabitaciones) {
+		this.listaHabitaciones = listaHabitaciones;
+	}
+	public Persona getDueño() {
+		return dueño;
+	}
+	public void setDueño(Persona dueño) {
+		this.dueño = dueño;
+	}
+	@Override
+	public String toString() {
+		return "Casa [precio=" + precio + ", direccion=" + direccion + ", listaHabitaciones=" + listaHabitaciones
+				+ ", dueño=" + dueño + "]";
+	}
+	
+	
+     
+	
+     
+}

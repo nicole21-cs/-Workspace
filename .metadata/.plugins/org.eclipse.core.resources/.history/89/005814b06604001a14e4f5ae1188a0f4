@@ -1,0 +1,6 @@
+package creacionAvion;
+
+public class Asiento {
+    private String fila;
+    private String 
+}

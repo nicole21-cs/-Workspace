@@ -1,0 +1,21 @@
+package creacionAvion;
+
+import java.util.ArrayList;
+
+public class MainAvion {
+
+	public static void main(String[] args) {
+		ArrayList<Pasajero> listaPasajeros;
+		Pasajero p1 = new Pasajero();
+		p1.setNombre("Laura Lopez");
+		p1.setTelefono("639874521");
+		p1.setDni("51478964 G");
+		
+		ArrayList<Maleta> listaMaletas = new ArrayList<Maleta>();
+		Maleta m1 = new Maleta();
+		m1.setTipoMaleta("Equipaje de mano");
+		m1.setPeso(10);
+
+	}
+
+}

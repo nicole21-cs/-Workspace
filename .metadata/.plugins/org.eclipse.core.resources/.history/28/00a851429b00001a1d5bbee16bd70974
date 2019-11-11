@@ -1,0 +1,49 @@
+
+public class EjercicioConFuncion {
+
+	public static void main(String[] args) {
+		Coche c1 = new Coche();
+		c1.matricula = "1111ADD";
+		c1.marca = "Mercedes";
+		c1.modelo = "Mercedes C-4";
+		c1.mantenimiento = "Nuevo";
+		imprimirCoche(c1);
+		
+		
+
+		Coche c2 = new Coche();
+		c2.matricula = "8508DXX";
+		c2.marca = "Opel";
+		c2.modelo = "Zafira 96";
+		c2.mantenimiento = "Segunda mano";
+		imprimirCoche(c2);
+
+		Coche c3 = new Coche();
+		c3.matricula = "6754KFC";
+		c3.marca = "Seat";
+		c3.modelo = "León";
+		c3.mantenimiento = "Segunda mano";
+		imprimirCoche(c3);
+		
+		Coche c4 = new Coche("3452GHL");
+		System.out.println();
+
+	}
+	/* public static void imprimirCoche(String matricula , String marca , String modelo , String mantenimiento ) {
+	 System.out.println("----COCHE----");
+	 System.out.println("Matricula : " + matricula);
+	 System.out.println("Marca : " + marca);
+	 System.out.println("Modelo : " + modelo);
+	 System.out.println("Mantenimiento : " + mantenimiento);
+     */
+	public static void imprimirCoche(Coche c) { // el nombre en "azul"(Coche) es el que hay que poner como lo hemos
+													// puesto en la referencia de class
+		System.out.println("----COCHE----");
+		System.out.println("Matricula : " + c.matricula);
+		System.out.println("Marca : " + c.marca);
+		System.out.println("Modelo : " + c.modelo);
+		System.out.println("Mantenimiento : " + c.mantenimiento);
+
+	}
+
+}

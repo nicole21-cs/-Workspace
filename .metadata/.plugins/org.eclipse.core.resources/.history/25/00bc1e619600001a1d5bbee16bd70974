@@ -1,0 +1,14 @@
+//Las clases en Java son moldes para la creación de objetos 
+//son planos en los que java se va a basar para la creacion de objetos
+public class Persona {
+     //Una clase Java en cualquier lenguaje tiene atributos y tiene métodos
+	//Los atributos en Java se suelen poner dentro de la clase y al rpincipio de ella
+	//creacion de la clase Persona :
+	public String nombre;
+	public double peso;
+	public int edad;
+	public String profesion;
+	
+	//Este es el constructor por defecto , se llaman igual que la clase 
+	public Persona();
+}

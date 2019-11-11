@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Persona"/>
+<fullyQualifiedTypeName name="Coche"/>
+<fullyQualifiedTypeName name="Peliculas"/>
+<fullyQualifiedTypeName name="Moto"/>
+<fullyQualifiedTypeName name="JavaBean.PersonaBean"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="JavaBean.PeliculaBean"/>
+<fullyQualifiedTypeName name="entidad.Persona"/>
+<fullyQualifiedTypeName name="entidad.Direccion"/>
+<fullyQualifiedTypeName name="ejercicio.Casa"/>
+<fullyQualifiedTypeName name="ejercicio.Persona"/>
+<fullyQualifiedTypeName name="ejercicio.Direccion"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ejercicio.Habitacion"/>
+</qualifiedTypeNameHistroy>

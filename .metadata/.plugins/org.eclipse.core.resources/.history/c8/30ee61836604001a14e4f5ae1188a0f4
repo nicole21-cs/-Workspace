@@ -1,0 +1,6 @@
+package creacionAvion;
+
+public class maleta {
+      private String tipoMaleta;
+      private double peso;
+}
