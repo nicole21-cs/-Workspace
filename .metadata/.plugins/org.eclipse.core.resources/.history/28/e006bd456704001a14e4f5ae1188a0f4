@@ -1,9 +1,0 @@
-package creacionAvion;
-
-import java.util.ArrayList;
-
-public class Avion {
-    private String tipoAvion;
-    private ArrayList<Pasajero> listaPasajeros;
-    private ArrayList<Asiento> listaAsientos;
-}

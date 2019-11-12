@@ -5,13 +5,21 @@
 <fullyQualifiedTypeName name="Peliculas"/>
 <fullyQualifiedTypeName name="Moto"/>
 <fullyQualifiedTypeName name="JavaBean.PersonaBean"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="JavaBean.PeliculaBean"/>
 <fullyQualifiedTypeName name="entidad.Persona"/>
 <fullyQualifiedTypeName name="entidad.Direccion"/>
 <fullyQualifiedTypeName name="ejercicio.Casa"/>
 <fullyQualifiedTypeName name="ejercicio.Persona"/>
 <fullyQualifiedTypeName name="ejercicio.Direccion"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="ejercicio.Habitacion"/>
+<fullyQualifiedTypeName name="creacionAvion.Avion"/>
+<fullyQualifiedTypeName name="creacionAvion.Maleta"/>
+<fullyQualifiedTypeName name="creacionAvion.Pasajero"/>
+<fullyQualifiedTypeName name="creacionAvion.Asiento"/>
+<fullyQualifiedTypeName name="ejercicio.Autor"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ejercicio.Libreria"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ejercicio.Libro"/>
 </qualifiedTypeNameHistroy>
