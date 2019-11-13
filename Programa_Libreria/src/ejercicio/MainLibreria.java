@@ -32,12 +32,22 @@ public class MainLibreria {
 			}else if(opcion == 2) {
 			  System.out.println("Introduzca un ISBN para buscar el libro");
 			  String isbn = sc.nextLine();
-			  l.busquedaIsbn(isbn);
+			  //l.busquedaIsbn(isbn);
 			  Libro libro = l.busquedaIsbn(isbn);
 			  System.out.println(libro);
 			  
 			}else if (opcion == 3) {
 				recorrerArray(listaLibros);
+			}else if(opcion==4) {
+				System.out.println("Introduzca un editorial para buscar libros");
+				String editorial = sc.nextLine();
+				ArrayList<Libro> listaLibrosEditorial = l.busquedaEditorial(editorial);
+				recorrerArray(listaLibrosEditorial);
+			}else if(opcion == 5) {
+				System.out.println("Introduzca un nombre para buscar el libro");
+				String nombreAutor = sc.nextLine();
+				ArrayList<Libro> listaLibrosPorNombre  = l.busquedaLibrosPorNombreAutor(nombreAutor);
+				System.out.println(listaLibrosPorNombre);
 			}
 				
 		}while(opcion != 0);
@@ -50,10 +60,20 @@ public class MainLibreria {
 	     System.out.println("1-Alta de libro");
 	     System.out.println("2-Búsqueda de libro por isbn");
 	     System.out.println("3-Listar libros");
+	     System.out.println("4-Búsqueda de libros por editorial");
+	     System.out.println("5-Búsqueda de autores por nombre");
 	     System.out.println("0-Salir");
 	     Scanner sc = new Scanner(System.in);
 	     String sopcion = sc.nextLine();
-	     int iopcion = Integer.parseInt(sopcion);
+	     
+	    int iopcion = -1; //si se pone 0 se confundiria con el 0 de la opción
+		try {
+			iopcion = Integer.parseInt(sopcion);
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			System.out.println("Solo se admiten números");
+		}
 	     return iopcion;
      }
      public static String leerDato(String cadena) {
@@ -69,6 +89,7 @@ public class MainLibreria {
     		 System.out.println("La editorial es : " + l.getEditorial());
     		 System.out.println("El isbn es : " + l.getIsbn());
     		 System.out.println("El autor es : " + l.getAutor());
+    		 System.out.println("--------------");
     	 }
      }
 }
