@@ -1,6 +1,0 @@
-package ejercicio;
-
-public class Persona {
-       private String nombre;
-       private String edad;
-}

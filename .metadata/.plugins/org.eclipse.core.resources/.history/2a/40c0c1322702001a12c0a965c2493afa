@@ -1,6 +1,0 @@
-package ejercicio;
-
-public class Direccion {
-     private String tipoVia;
-     private String
-}

@@ -1,8 +1,0 @@
-package creacionAvion;
-
-public class Asiento {
-    private String fila;
-    private String posicion;
-    private String tipoAsiento;
-    private Pasajero pasajero;
-}

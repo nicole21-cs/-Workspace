@@ -1,6 +1,0 @@
-package ejercicio;
-
-public class Habitacion {
-    private String tipoHabitacion;
-    private double m
-}

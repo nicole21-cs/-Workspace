@@ -1,7 +1,0 @@
-package ejercicio;
-
-public class Casa {
-     private String precio;
-     private Direccion direccion;
-     
-}

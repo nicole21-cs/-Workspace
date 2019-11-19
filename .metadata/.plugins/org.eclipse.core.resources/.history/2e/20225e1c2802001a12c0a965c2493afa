@@ -1,9 +1,0 @@
-package ejercicio;
-
-import java.util.ArrayList;
-
-public class Casa {
-     private String precio;
-     private Direccion direccion;
-     ArrayList<Habitacion> listaHabitacion 
-}

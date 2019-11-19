@@ -1,6 +1,0 @@
-package creacionAvion;
-
-public class pasajero {
-     private String nombre;
-     
-}

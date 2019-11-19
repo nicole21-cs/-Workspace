@@ -26,7 +26,7 @@ public class MainHerencia {
 		gz.setTrabajaExtranjero(true);
 		
 		//Una referencia padre puede apuntar a cualquiera objeto hijo
-		//aunque pueda apuntar a cualquiera de sus hijos, solamente puedo acceder a los métodos y atributos del tipo de laa referencia 
+		//aunque pueda apuntar a cualquiera de sus hijos, solamente puedo acceder a los métodos y atributos del tipo de la referencia 
 		Persona p2 = gz;
 		Persona p3 = m;
 		
