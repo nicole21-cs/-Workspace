@@ -73,6 +73,14 @@ public class Automovil extends Vehiculo {
 		this.potenciaMotor = potenciaMotor;
 	}
 
+	@Override
+	public String toString() {
+		return "Automovil [matricula=" + matricula + ", Numero de ruedas=" + numRuedas + ", tipoMotor=" + tipoMotor
+				+ ", potenciaMotor=" + potenciaMotor + ", getModelo()=" + getModelo() + ", getMarca()=" + getMarca()
+				+ ", getVelocidad()=" + getVelocidad() + ", getNumAsientos()=" + getNumAsientos()
+				+ ", getAnguloDireccion()=" + getAnguloDireccion() + "]";
+	}
+
 	
 	
 	

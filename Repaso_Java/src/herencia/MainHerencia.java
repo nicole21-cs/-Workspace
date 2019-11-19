@@ -12,7 +12,17 @@ public class MainHerencia {
 		t.setVelocidad(100);
 		t.setMatricula("7643DRW");
 		System.out.println(t);
-
+		//System.out.println(a);
+		t.abrirCapo();
+		t.abrirPuerta();
+		
+		double precio[] = {0.19 , 0.23}; //array del precio 
+		
+		Taxi tx = new Taxi("Porche", "P-99", 0, 5, 0, "4875KLT", 4, "Eléctrico", 888, false, "765423RTY",precio );
+        
+		//tx.metodoCobrar(20, 18);
+		System.out.println(tx.metodoCobrar(20, 18));
+		System.out.println(tx);
 	}
 
 }

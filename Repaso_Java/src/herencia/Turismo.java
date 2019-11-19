@@ -42,11 +42,11 @@ public class Turismo extends Automovil {
 
 	@Override
 	public String toString() {
-		return "Turismo [numPuertas=" + numPuertas + ", numVentanas=" + numVentanas + ", getMatricula()="
-				+ getMatricula() + ", getNumRuedas()=" + getNumRuedas() + ", getTipoMotor()=" + getTipoMotor()
-				+ ", getPotenciaMotor()=" + getPotenciaMotor() + ", getModelo()=" + getModelo() + ", getMarca()="
-				+ getMarca() + ", getVelocidad()=" + getVelocidad() + ", getNumAsientos()=" + getNumAsientos()
-				+ ", getAnguloDireccion()=" + getAnguloDireccion() + "]";
+		return "Turismo [Número de puertas = " + numPuertas + ",\n Número de ventanas = " + numVentanas + ",\n Matricula = "
+				+ getMatricula() + ",\n Número de ruedas = " + getNumRuedas() + ",\n Tipo de motor = " + getTipoMotor()
+				+ ",\n Potencia del motor = " + getPotenciaMotor() + ",\n Modelo = " + getModelo() + ",\n Marca = "
+				+ getMarca() + ",\n Velocidad = " + getVelocidad() + ",\n Número de asientos = " + getNumAsientos()
+				+ ",\n Ángulo de dirección = " + getAnguloDireccion() + "]";
 	}
 	
 	

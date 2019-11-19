@@ -1,6 +1,7 @@
 package herencia;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Taxi extends Turismo {
 	private boolean ocupado;
@@ -59,6 +60,18 @@ public class Taxi extends Turismo {
 		}
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Taxi [ocupado=" + ocupado + ", licencia=" + licencia + ", precio=" + Arrays.toString(precio)
+				+ ", getNumPuertas()=" + getNumPuertas() + ", getNumVentanas()=" + getNumVentanas()
+				+ ", getMatricula()=" + getMatricula() + ", getNumRuedas()=" + getNumRuedas() + ", getTipoMotor()="
+				+ getTipoMotor() + ", getPotenciaMotor()=" + getPotenciaMotor() + ", getModelo()=" + getModelo()
+				+ ", getMarca()=" + getMarca() + ", getVelocidad()=" + getVelocidad() + ", getNumAsientos()="
+				+ getNumAsientos() + ", getAnguloDireccion()=" + getAnguloDireccion() + "]";
+	}
+
+	
 	
 	
 
