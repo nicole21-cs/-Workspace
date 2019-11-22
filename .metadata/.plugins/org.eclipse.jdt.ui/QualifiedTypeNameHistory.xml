@@ -28,4 +28,8 @@
 <fullyQualifiedTypeName name="empleados.Director"/>
 <fullyQualifiedTypeName name="empleados.Empleado"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="herencia.Vehiculo"/>
+<fullyQualifiedTypeName name="herencia.Automovil"/>
+<fullyQualifiedTypeName name="herencia.Turismo"/>
+<fullyQualifiedTypeName name="herencia.Taxi"/>
 </qualifiedTypeNameHistroy>
